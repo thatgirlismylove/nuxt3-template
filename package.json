@@ -6,7 +6,7 @@
     "build": "nuxt build",
     "build:prod": "nuxt build --dotenv .env.production",
     "dev": "nuxt dev",
-    "dev:lcoal": "nuxt dev --dotenv .env.local",
+    "dev:local": "nuxt dev --dotenv .env.local",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "simple-git-hooks",
