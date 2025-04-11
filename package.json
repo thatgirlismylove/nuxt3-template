@@ -50,7 +50,7 @@
     "commit-msg": "npx commitlint --edit $1"
   },
   "lint-staged": {
-    "src/**/*.{js,,ts,jsx,tsx,vue}": [
+    "**/*.{js,,ts,jsx,tsx,vue}": [
       "eslint --fix"
     ]
   },
