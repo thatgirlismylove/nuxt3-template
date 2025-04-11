@@ -14,4 +14,9 @@ export default withNuxt(
     typescript: true,
     vue: true,
   }),
+  {
+    rules: {
+      'no-console': 'off',
+    },
+  },
 )
