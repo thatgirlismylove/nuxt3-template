@@ -1,5 +1,7 @@
 <script setup>
-// getUserInfo({}).then(res => console.log(res)).catch(err => console.log(err));
+import {getUserInfo} from "~/api/index.js";
+
+getUserInfo({}).then(res => console.log(res)).catch(err => console.log(err));
 </script>
 
 <template>
