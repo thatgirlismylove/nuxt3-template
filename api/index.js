@@ -6,5 +6,5 @@ export function getUserInfo(data) {
     url: '/api/user',
     method: 'POST',
     body: data,
-	})
+  })
 }
