@@ -43,7 +43,8 @@
 		"lint-staged": "^15.5.0",
 		"sass": "^1.86.3",
 		"simple-git-hooks": "^2.12.1",
-		"typescript": "^5.8.3"
+		"typescript": "^5.8.3",
+		"vue-tsc": "^2.2.8"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "npx lint-staged",
